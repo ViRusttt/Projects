@@ -41,14 +41,10 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
-import org.osmdroid.config.Configuration
-import org.osmdroid.events.MapEventsReceiver
-import org.osmdroid.tileprovider.tilesource.TileSourceFactory
-import org.osmdroid.util.GeoPoint
-import org.osmdroid.views.MapView
-import org.osmdroid.views.overlay.MapEventsOverlay
-import org.osmdroid.views.overlay.Marker
-import org.osmdroid.views.overlay.Polygon
+import com.google.android.gms.maps.model.LatLng
+import com.google.android.gms.maps.model.CameraPosition
+import com.google.maps.android.compose.*
+import com.google.android.gms.maps.CameraUpdateFactory
 import java.util.Locale
 
 fun parseCoordinates(input: String): Pair<Double, Double>? {
@@ -83,7 +79,7 @@ fun AddReminderScreen(
     var title by remember { mutableStateOf("") }
     var noteText by remember { mutableStateOf("") }
     var selectedRadius by remember { mutableStateOf(300f) }
-    var selectedPoint by remember { mutableStateOf(GeoPoint(13.7563, 100.5018)) } // Bangkok default
+    var selectedPoint by remember { mutableStateOf(LatLng(13.7563, 100.5018)) } // Bangkok default
     val radii = listOf(100f, 300f, 500f, 1000f)
     val radiiLabels = listOf("100 m", "300 m", "500 m", "1 km")
 
@@ -92,32 +88,9 @@ fun AddReminderScreen(
     var isSearching by remember { mutableStateOf(false) }
     var showSuggestions by remember { mutableStateOf(false) }
 
-    Configuration.getInstance().userAgentValue = context.packageName
 
-    val locationPermissionLauncher = rememberLauncherForActivityResult(
-        ActivityResultContracts.RequestPermission()
-    ) { isGranted ->
-        if (isGranted) {
-            @SuppressLint("MissingPermission")
-            fusedLocationClient.lastLocation.addOnSuccessListener { loc ->
-                if (loc != null) {
-                    selectedPoint = GeoPoint(loc.latitude, loc.longitude)
-                }
-            }
-        }
-    }
 
-    fun fetchCurrentLocation() {
-        if (ContextCompat.checkSelfPermission(context, Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED) {
-            fusedLocationClient.lastLocation.addOnSuccessListener { loc ->
-                if (loc != null) {
-                    selectedPoint = GeoPoint(loc.latitude, loc.longitude)
-                }
-            }
-        } else {
-            locationPermissionLauncher.launch(Manifest.permission.ACCESS_FINE_LOCATION)
-        }
-    }
+
 
     fun doSearch() {
         if (searchQuery.isBlank()) return
@@ -241,7 +214,7 @@ fun AddReminderScreen(
                                         }
                                     },
                                     onClick = {
-                                        selectedPoint = GeoPoint(address.latitude, address.longitude)
+                                        selectedPoint = LatLng(address.latitude, address.longitude)
                                         searchQuery = ""
                                         showSuggestions = false
                                     }
@@ -265,7 +238,7 @@ fun AddReminderScreen(
                                         }
                                     },
                                     onClick = {
-                                        selectedPoint = GeoPoint(item.lat, item.lon)
+                                        selectedPoint = LatLng(item.lat, item.lon)
                                         searchQuery = ""
                                         showSuggestions = false
                                     }
@@ -278,23 +251,12 @@ fun AddReminderScreen(
 
             Box(modifier = Modifier.fillMaxWidth().height(200.dp)) {
                 Card(shape = RoundedCornerShape(12.dp), elevation = CardDefaults.cardElevation(1.dp), modifier = Modifier.fillMaxSize()) {
-                    OsmMapPicker(
+                    GoogleMapPicker(
                         modifier = Modifier.fillMaxSize(),
-                        context = context,
                         point = selectedPoint,
                         radius = selectedRadius,
                         onPointSelected = { selectedPoint = it }
                     )
-                }
-                
-                FloatingActionButton(
-                    onClick = { fetchCurrentLocation() },
-                    modifier = Modifier.align(Alignment.BottomEnd).padding(10.dp),
-                    containerColor = MaterialTheme.colorScheme.surface,
-                    contentColor = Green,
-                    shape = CircleShape
-                ) {
-                    Icon(Icons.Default.MyLocation, contentDescription = "My Location")
                 }
             }
             Text("Tap on map to set location", fontSize = 11.sp, color = GrayText)
@@ -365,48 +327,39 @@ fun AddReminderScreen(
 }
 
 @Composable
-fun OsmMapPicker(
+fun GoogleMapPicker(
     modifier: Modifier,
-    context: Context,
-    point: GeoPoint,
+    point: LatLng,
     radius: Float,
-    onPointSelected: (GeoPoint) -> Unit
+    onPointSelected: (LatLng) -> Unit
 ) {
-    AndroidView(
+    val cameraPositionState = rememberCameraPositionState {
+        position = CameraPosition.fromLatLngZoom(point, 15f)
+    }
+    
+    GoogleMap(
         modifier = modifier,
-        factory = { ctx ->
-            MapView(ctx).apply {
-                setTileSource(TileSourceFactory.MAPNIK)
-                setMultiTouchControls(true)
-                controller.setZoom(15.0)
-                controller.setCenter(point)
-            }
-        },
-        update = { mapView ->
-            mapView.overlays.clear()
-            // Marker
-            val marker = Marker(mapView).apply {
-                position = point
-                setAnchor(Marker.ANCHOR_CENTER, Marker.ANCHOR_BOTTOM)
-            }
-            // Radius circle
-            val circle = Polygon(mapView).apply {
-                points = Polygon.pointsAsCircle(point, radius.toDouble())
-                fillColor = 0x221D9E75
-                strokeColor = 0xFF1D9E75.toInt()
-                strokeWidth = 2f
-            }
-            // Tap handler
-            val tapOverlay = MapEventsOverlay(object : MapEventsReceiver {
-                override fun singleTapConfirmedHelper(p: GeoPoint): Boolean {
-                    onPointSelected(p)
-                    return true
-                }
-                override fun longPressHelper(p: GeoPoint) = false
-            })
-            mapView.overlays.addAll(listOf(circle, marker, tapOverlay))
-            mapView.controller.animateTo(point)
-            mapView.invalidate()
-        }
-    )
+        cameraPositionState = cameraPositionState,
+        onMapClick = { latLng -> onPointSelected(latLng) },
+        uiSettings = MapUiSettings(
+            zoomControlsEnabled = true,
+            myLocationButtonEnabled = true
+        ),
+        properties = MapProperties(isMyLocationEnabled = true)
+    ) {
+        Marker(state = MarkerState(position = point))
+        Circle(
+            center = point,
+            radius = radius.toDouble(),
+            fillColor = Color(0x221D9E75),
+            strokeColor = Color(0xFF1D9E75),
+            strokeWidth = 3f
+        )
+    }
+    
+    LaunchedEffect(point) {
+        cameraPositionState.animate(
+            CameraUpdateFactory.newLatLngZoom(point, 15f)
+        )
+    }
 }

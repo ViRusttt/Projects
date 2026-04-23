@@ -1,6 +1,7 @@
 package com.example.nearnote
 
 import android.Manifest
+import android.os.Build
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -31,11 +32,28 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
+        // Request fine/coarse location and notification permissions first
         locationPermission.launch(arrayOf(
             Manifest.permission.ACCESS_FINE_LOCATION,
             Manifest.permission.ACCESS_COARSE_LOCATION,
             Manifest.permission.POST_NOTIFICATIONS
         ))
+
+        // Request background location separately — required on Android 10+
+        // User must choose "Allow all the time" in system settings for geofences to work in background
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
+            requestPermissions(
+                arrayOf(Manifest.permission.ACCESS_BACKGROUND_LOCATION),
+                101
+            )
+        }
+
+        val serviceIntent = android.content.Intent(this, com.example.nearnote.service.LocationForegroundService::class.java)
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+            startForegroundService(serviceIntent)
+        } else {
+            startService(serviceIntent)
+        }
 
         val targetId = intent.getLongExtra("reminder_id", -1L)
 
@@ -45,6 +63,11 @@ class MainActivity : ComponentActivity() {
                 NearNoteApp(viewModel = viewModel, openReminderId = targetId, isDarkMode = isDarkMode)
             }
         }
+    }
+
+    override fun onNewIntent(intent: android.content.Intent) {
+        super.onNewIntent(intent)
+        setIntent(intent)
     }
 }
 
@@ -56,9 +79,19 @@ fun NearNoteApp(viewModel: ReminderViewModel, openReminderId: Long = -1L, isDark
     val geofenceManager = remember { GeofenceManager(context) }
     val scope = rememberCoroutineScope()
 
-    val startDest = if (openReminderId != -1L) "detail/$openReminderId" else "home"
-
     var showBgLocationDialog by remember { mutableStateOf(false) }
+
+    // Wait for reminders to load before navigating
+    LaunchedEffect(reminders, openReminderId) {
+        if (openReminderId != -1L && reminders.isNotEmpty()) {
+            val exists = reminders.any { it.id == openReminderId }
+            if (exists) {
+                navController.navigate("detail/$openReminderId") {
+                    popUpTo("home") { inclusive = false }
+                }
+            }
+        }
+    }
 
     LaunchedEffect(Unit) {
         if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.Q &&
@@ -95,7 +128,7 @@ fun NearNoteApp(viewModel: ReminderViewModel, openReminderId: Long = -1L, isDark
         )
     }
 
-    NavHost(navController, startDestination = startDest) {
+    NavHost(navController, startDestination = "home") {
         composable("home") {
             HomeScreen(
                 reminders = reminders,

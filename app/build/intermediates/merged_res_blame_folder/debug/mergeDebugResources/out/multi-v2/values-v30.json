@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.nearnote.app-mergeDebugResources-63:/values-v30/values-v30.xml",
+            "outputFile": "com.example.nearnote.app-mergeDebugResources-70:/values-v30/values-v30.xml",
             "map": [
                 {
                     "source": "C:\\Users\\thana\\.gradle\\caches\\9.0.0\\transforms\\7a030b27bb5c4efe45c6fd97fc9a019e\\transformed\\material3-release\\res\\values-v30\\values-v30.xml",

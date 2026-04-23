@@ -23,9 +23,9 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.nearnote.domain.model.Reminder
 import com.example.nearnote.service.GeofenceBroadcastReceiver
-import com.example.nearnote.ui.add.OsmMapPicker
+import com.example.nearnote.ui.add.GoogleMapPicker
+import com.google.android.gms.maps.model.LatLng
 import com.example.nearnote.ui.theme.*
-import org.osmdroid.util.GeoPoint
 
 fun triggerTestNotification(context: Context, reminder: Reminder) {
     val intent = Intent(context, GeofenceBroadcastReceiver::class.java).apply {
@@ -85,10 +85,9 @@ fun DetailScreen(
             item {
                 Spacer(Modifier.height(4.dp))
                 Card(shape = RoundedCornerShape(12.dp), elevation = CardDefaults.cardElevation(1.dp)) {
-                    OsmMapPicker(
+                    GoogleMapPicker(
                         modifier = Modifier.fillMaxWidth().height(180.dp),
-                        context = context,
-                        point = GeoPoint(reminder.latitude, reminder.longitude),
+                        point = LatLng(reminder.latitude, reminder.longitude),
                         radius = reminder.radiusMeters,
                         onPointSelected = {}
                     )

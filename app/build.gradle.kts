@@ -43,6 +43,7 @@ dependencies {
     implementation(libs.androidx.material3)
     implementation(libs.androidx.activity.compose)
     implementation("androidx.compose.material:material-icons-extended")
+    implementation("androidx.compose.ui:ui-text-google-fonts:1.7.5")
 
     // Navigation
     implementation("androidx.navigation:navigation-compose:2.8.4")
@@ -59,8 +60,10 @@ dependencies {
     // Coroutines
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.9.0")
 
-    // OSMDroid (free maps, no API key)
-    implementation("org.osmdroid:osmdroid-android:6.1.17")
+    // Google Maps
+    implementation("com.google.android.gms:play-services-maps:19.0.0")
+    implementation("com.google.maps.android:maps-compose:6.1.0")
+    implementation("com.google.android.libraries.places:places:4.1.0")
 
     // Geofencing
     implementation("com.google.android.gms:play-services-location:21.3.0")
