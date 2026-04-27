@@ -1,0 +1,27 @@
+# Built application files
+*.apk
+*.aar
+*.ap_
+
+# Build directory
+/build
+/app/build
+
+# Gradle
+.gradle
+local.properties
+gradle.properties
+
+# Android Studio
+*.iml
+.idea/
+*.iws
+*.ipr
+
+# Test reports (these generate HTML files)
+app/build/reports/
+app/build/outputs/
+
+# Keystore files
+*.jks
+*.keystore
