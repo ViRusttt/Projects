@@ -47,13 +47,14 @@ class LocationForegroundService : Service() {
     }
 
     private fun startLocationUpdates() {
+        // HIGH_ACCURACY + ช่วงเวลาสั้น เพื่อให้ Geofence ทำงานได้แม่นยำโดยไม่ต้องพึ่ง Google Maps
         val request = LocationRequest.Builder(
-            Priority.PRIORITY_BALANCED_POWER_ACCURACY, 30000L // every 30 seconds
-        ).setMinUpdateDistanceMeters(50f).build()
+            Priority.PRIORITY_HIGH_ACCURACY, 10000L // every 10 seconds
+        ).setMinUpdateDistanceMeters(10f).build()
 
         locationCallback = object : LocationCallback() {
             override fun onLocationResult(result: LocationResult) {
-                // Just keeping location active for geofence to work
+                // Keeping active high-accuracy location for geofence to work in background
             }
         }
 

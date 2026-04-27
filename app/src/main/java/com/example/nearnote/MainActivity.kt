@@ -165,6 +165,16 @@ fun NearNoteApp(viewModel: ReminderViewModel, openReminderId: Long = -1L, isDark
                 DetailScreen(
                     reminder = reminder,
                     onBack = { navController.popBackStack() },
+                    onSave = { updated ->
+                        scope.launch {
+                            // ลบ geofence เก่า (requestId อาจเปลี่ยนถ้า title เปลี่ยน)
+                            geofenceManager.removeGeofence(updated.id)
+                            // บันทึกข้อมูลใหม่ลง DB
+                            viewModel.updateReminder(updated)
+                            // Register geofence ใหม่ด้วยข้อมูลล่าสุด
+                            geofenceManager.addGeofence(updated)
+                        }
+                    },
                     onDelete = {
                         geofenceManager.removeGeofence(reminder.id)
                         viewModel.deleteReminder(reminder)

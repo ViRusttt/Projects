@@ -72,6 +72,9 @@
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
             </intent-filter>
         </receiver>
+        <receiver
+            android:name="com.example.nearnote.service.SnoozeReceiver"
+            android:exported="false" />
 
         <service
             android:name="com.example.nearnote.service.GeofenceTransitionsService"

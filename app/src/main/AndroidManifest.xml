@@ -44,6 +44,10 @@
             </intent-filter>
         </receiver>
 
+        <receiver
+            android:name=".service.SnoozeReceiver"
+            android:exported="false" />
+
         <service
             android:name=".service.GeofenceTransitionsService"
             android:exported="false"

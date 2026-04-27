@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:2:1-59:12
-INJECTED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:2:1-59:12
-INJECTED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:2:1-59:12
-INJECTED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:2:1-59:12
+ADDED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:2:1-63:12
+INJECTED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:2:1-63:12
+INJECTED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:2:1-63:12
+INJECTED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:2:1-63:12
 MERGED from [androidx.navigation:navigation-common:2.8.4] C:\Users\thana\.gradle\caches\9.0.0\transforms\88c3ffd00b8eb0af3e50bee8fe9ce2e5\transformed\navigation-common-2.8.4\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-runtime:2.8.4] C:\Users\thana\.gradle\caches\9.0.0\transforms\698224e12573afe920daa045bc51ec6f\transformed\navigation-runtime-2.8.4\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-common-ktx:2.8.4] C:\Users\thana\.gradle\caches\9.0.0\transforms\7e5928357086db6881e9535ec0bf0f9c\transformed\navigation-common-ktx-2.8.4\AndroidManifest.xml:2:1-7:12
@@ -168,8 +168,8 @@ ADDED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:12:5-86
 	android:name
 		ADDED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:12:22-83
 application
-ADDED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:14:5-58:19
-INJECTED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:14:5-58:19
+ADDED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:14:5-62:19
+INJECTED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:14:5-62:19
 MERGED from [androidx.compose.ui:ui-tooling-android:1.7.5] C:\Users\thana\.gradle\caches\9.0.0\transforms\bff9d8a4086390f1fe8bfb3caaaabdbb\transformed\ui-tooling-release\AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.compose.ui:ui-tooling-android:1.7.5] C:\Users\thana\.gradle\caches\9.0.0\transforms\bff9d8a4086390f1fe8bfb3caaaabdbb\transformed\ui-tooling-release\AndroidManifest.xml:22:5-26:19
 MERGED from [com.google.android.libraries.places:places:4.1.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\ddcec1965bb0de493b74554ba6a95d7c\transformed\places-4.1.0\AndroidManifest.xml:14:5-22:19
@@ -262,24 +262,30 @@ action#android.intent.action.BOOT_COMPLETED
 ADDED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:43:17-79
 	android:name
 		ADDED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:43:25-76
-service#com.example.nearnote.service.GeofenceTransitionsService
-ADDED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:47:9-50:56
+receiver#com.example.nearnote.service.SnoozeReceiver
+ADDED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:47:9-49:40
 	android:exported
 		ADDED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:49:13-37
-	android:foregroundServiceType
-		ADDED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:50:13-53
 	android:name
-		ADDED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:48:13-63
-service#com.example.nearnote.service.LocationForegroundService
-ADDED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:52:9-56:44
+		ADDED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:48:13-51
+service#com.example.nearnote.service.GeofenceTransitionsService
+ADDED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:51:9-54:56
 	android:exported
-		ADDED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:55:13-37
-	android:stopWithTask
-		ADDED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:56:13-41
+		ADDED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:53:13-37
 	android:foregroundServiceType
 		ADDED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:54:13-53
 	android:name
-		ADDED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:53:13-62
+		ADDED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:52:13-63
+service#com.example.nearnote.service.LocationForegroundService
+ADDED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:56:9-60:44
+	android:exported
+		ADDED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:59:13-37
+	android:stopWithTask
+		ADDED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:60:13-41
+	android:foregroundServiceType
+		ADDED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:58:13-53
+	android:name
+		ADDED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:57:13-62
 uses-sdk
 INJECTED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml

@@ -27,12 +27,13 @@ class GeofenceManager(private val context: Context) {
             .setRequestId("${reminder.id}|${reminder.title}|${reminder.noteText}")
             .setCircularRegion(reminder.latitude, reminder.longitude, reminder.radiusMeters)
             .setExpirationDuration(Geofence.NEVER_EXPIRE)
-            .setTransitionTypes(Geofence.GEOFENCE_TRANSITION_ENTER)
-            .setLoiteringDelay(30000)
+            // Monitor ทั้ง ENTER และ EXIT — เมื่อออกแล้วกลับเข้ามา ENTER จะยิงซ้ำเองโดยอัตโนมัติ
+            .setTransitionTypes(Geofence.GEOFENCE_TRANSITION_ENTER or Geofence.GEOFENCE_TRANSITION_EXIT)
             .build()
 
         val request = GeofencingRequest.Builder()
-            .setInitialTrigger(GeofencingRequest.INITIAL_TRIGGER_ENTER)
+            // ไม่ใช้ INITIAL_TRIGGER_ENTER — ป้องกันยิงทันทีตอน re-register ขณะยังอยู่ใน zone
+            .setInitialTrigger(0)
             .addGeofence(geofence)
             .build()
 
