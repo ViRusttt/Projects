@@ -1,0 +1,876 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:2:1-59:12
+INJECTED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:2:1-59:12
+INJECTED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:2:1-59:12
+INJECTED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:2:1-59:12
+MERGED from [androidx.navigation:navigation-common:2.8.4] C:\Users\thana\.gradle\caches\9.0.0\transforms\88c3ffd00b8eb0af3e50bee8fe9ce2e5\transformed\navigation-common-2.8.4\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.8.4] C:\Users\thana\.gradle\caches\9.0.0\transforms\698224e12573afe920daa045bc51ec6f\transformed\navigation-runtime-2.8.4\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.8.4] C:\Users\thana\.gradle\caches\9.0.0\transforms\7e5928357086db6881e9535ec0bf0f9c\transformed\navigation-common-ktx-2.8.4\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.8.4] C:\Users\thana\.gradle\caches\9.0.0\transforms\9c08b01d82ca662c97f2457b0eff8e06\transformed\navigation-runtime-ktx-2.8.4\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-compose:2.8.4] C:\Users\thana\.gradle\caches\9.0.0\transforms\ced2880176deaf4212afd8f251c6d73a\transformed\navigation-compose-2.8.4\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.maps.android:maps-compose:6.1.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\c75ef8ec2993b1ce0052c77d89e0fd71\transformed\maps-compose-6.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.material3:material3-android:1.3.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\7a030b27bb5c4efe45c6fd97fc9a019e\transformed\material3-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.material:material-android:1.7.5] C:\Users\thana\.gradle\caches\9.0.0\transforms\ca9376a2000089e3ff0422059d200c2b\transformed\material-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-core-android:1.7.5] C:\Users\thana\.gradle\caches\9.0.0\transforms\790c001dfd899cd6e93f8bfdce85891b\transformed\animation-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-ripple-android:1.7.5] C:\Users\thana\.gradle\caches\9.0.0\transforms\ed5454a1a47c18030773febb9cc52cd8\transformed\material-ripple-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-android:1.7.5] C:\Users\thana\.gradle\caches\9.0.0\transforms\a6a40b3b7fc208bf97dfd7ebbb6f1323\transformed\animation-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.5] C:\Users\thana\.gradle\caches\9.0.0\transforms\9ca8e83a73d45e7af6c172f491345fbe\transformed\foundation-layout-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-android:1.7.5] C:\Users\thana\.gradle\caches\9.0.0\transforms\fd05e19bae1f3a71b6aed140d5a62a03\transformed\foundation-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.5] C:\Users\thana\.gradle\caches\9.0.0\transforms\7050b4e6b5d3de598092befb3505a134\transformed\ui-tooling-data-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.5] C:\Users\thana\.gradle\caches\9.0.0\transforms\7bad4daa5517d4f8adbaa48b3a06509e\transformed\ui-unit-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.5] C:\Users\thana\.gradle\caches\9.0.0\transforms\bac5275f643f32540635e6e47a87eee7\transformed\ui-geometry-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-util-android:1.7.5] C:\Users\thana\.gradle\caches\9.0.0\transforms\05c7c9ddd1a24cf7aad3e0dd091c2736\transformed\ui-util-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-text-android:1.7.5] C:\Users\thana\.gradle\caches\9.0.0\transforms\3227c510a81536d49ed09d768fe688c8\transformed\ui-text-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.5] C:\Users\thana\.gradle\caches\9.0.0\transforms\9a98ed607400cf798dd4ba5f03e2f9c8\transformed\ui-tooling-preview-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.5] C:\Users\thana\.gradle\caches\9.0.0\transforms\bff9d8a4086390f1fe8bfb3caaaabdbb\transformed\ui-tooling-release\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.5] C:\Users\thana\.gradle\caches\9.0.0\transforms\e8fc7c13776e4d90be02efa2efcd61d5\transformed\ui-graphics-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-text-google-fonts:1.7.5] C:\Users\thana\.gradle\caches\9.0.0\transforms\90de4299ff01e06dfd4a41a429f4e693\transformed\ui-text-google-fonts-1.7.5\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.libraries.places:places:4.1.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\ddcec1965bb0de493b74554ba6a95d7c\transformed\places-4.1.0\AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.maps.android:maps-ktx:5.1.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\25fc9bf0174ca5eed23a26a11f333a47\transformed\maps-ktx-5.1.1\AndroidManifest.xml:18:1-23:12
+MERGED from [com.google.android.gms:play-services-maps:19.0.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\e1d162918205391d95697b69270eb4d2\transformed\play-services-maps-19.0.0\AndroidManifest.xml:17:1-44:12
+MERGED from [com.google.android.gms:play-services-location:21.3.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\2bac0d5a8999bc5c382761fff7af3392\transformed\play-services-location-21.3.0\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\88344469396a51705f44f0fe320e4d58\transformed\play-services-base-18.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\8810fe526acb80a02bdb99c299c4f2cc\transformed\room-runtime-2.6.1\AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.work:work-runtime-ktx:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\4ce694b74164eaadd45a9cfb83fbc89e\transformed\work-runtime-ktx-2.9.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:17:1-145:12
+MERGED from [androidx.room:room-ktx:2.6.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\1dbf0fb1404c6f9160f9ff032c8fabfd\transformed\room-ktx-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\b74c3e64f92601a528775fdd94cf6452\transformed\appcompat-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\d424465fba5eae546f62ffffe500d8d7\transformed\vectordrawable-animated-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\990088c8d1bd2baeeb2f0ca7dce28fd9\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\9d52f1d0e8b5fa74b9af154ce5685803\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\46539fd0b0d8ca061d8030c5a13eb937\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\b0111f8a4d2be9b8adf1ee0afc42d5e0\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\387af779c83655583185ad3a52fb15d8\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.3.2] C:\Users\thana\.gradle\caches\9.0.0\transforms\89bb1cb6a1a669bcce9977155dadb00b\transformed\recyclerview-1.3.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\bccdb33a23c1a067f9c048935bad9897\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.15.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\ab3e3efecf6cec5ff44341369c56839b\transformed\core-ktx-1.15.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\5e811c746a0b545825c1238290128740\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\44b7c876d7f74afa5d7f738de316fad4\transformed\vectordrawable-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\a53302e5f4c3c6ed34941168d3955973\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\9752f54b7ad80e2c8df3423f44f73c6f\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\b9d565569e27a218bf8ab78fde1b3f4c\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\6aa07db9a6fcd494d60bb62c1a01e258\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\d8a28498dbf7969f044446d815aed518\transformed\autofill-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.graphics:graphics-path:1.0.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\149b2ce286bb5869137fa5950446793b\transformed\graphics-path-1.0.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\8478eefe6895d95612ab9638a0afad6c\transformed\emoji2-1.3.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\2e438ee16ed8f4bde9d854af2392962c\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\d0206bfb676de6865c02c89ed650165f\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.15.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\5c37bd52409ad31ed27f469f214d2c2b\transformed\core-1.15.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\thana\.gradle\caches\9.0.0\transforms\e280c6c5959bee6e94fcf94418c2e504\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.7] C:\Users\thana\.gradle\caches\9.0.0\transforms\2f9e17fa39d10c9dfe39d040d518c844\transformed\lifecycle-runtime-compose-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.7] C:\Users\thana\.gradle\caches\9.0.0\transforms\150f770171ecdc69ce70d013676ea384\transformed\lifecycle-livedata-core-ktx-2.8.7\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.7] C:\Users\thana\.gradle\caches\9.0.0\transforms\ca8a27dca76c8f5dbe1f173936495125\transformed\lifecycle-runtime-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.7] C:\Users\thana\.gradle\caches\9.0.0\transforms\68f4fb13518efabbf5ea7da3d21d115b\transformed\lifecycle-livedata-core-2.8.7\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.8.7] C:\Users\thana\.gradle\caches\9.0.0\transforms\5c4a309b4332cd346aba353e75b9f808\transformed\lifecycle-service-2.8.7\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.7] C:\Users\thana\.gradle\caches\9.0.0\transforms\30f5ee4d583189e4b3f066ecdcd15cbb\transformed\lifecycle-livedata-2.8.7\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.7] C:\Users\thana\.gradle\caches\9.0.0\transforms\001bfc97b6acdddf441422c26db99658\transformed\lifecycle-viewmodel-2.8.7\AndroidManifest.xml:2:1-5:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.7] C:\Users\thana\.gradle\caches\9.0.0\transforms\bb7d1dbcdb2c804edf9612d7bf41c8cb\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.5] C:\Users\thana\.gradle\caches\9.0.0\transforms\cf677ad1007ca8faf96e7a51b5963350\transformed\runtime-saveable-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-android:1.7.5] C:\Users\thana\.gradle\caches\9.0.0\transforms\b640d432c2247443d0050d08e4b405b4\transformed\runtime-release\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\89cbceaf812312b17fd6270f0a3a1fab\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\ba7005eb66eb63b54c99257e5e9e3435\transformed\play-services-basement-18.4.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\19bdd72953df025ffd6b29e9bccb8cb3\transformed\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.9.3] C:\Users\thana\.gradle\caches\9.0.0\transforms\42a1bb84a9a4983ae1584251b95f6a72\transformed\activity-1.9.3\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.7] C:\Users\thana\.gradle\caches\9.0.0\transforms\280e263c620b6b1ec1d09d307c482fe3\transformed\lifecycle-viewmodel-savedstate-2.8.7\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7] C:\Users\thana\.gradle\caches\9.0.0\transforms\a54e3a42bf91c4d2712fda6c321ab2fc\transformed\lifecycle-viewmodel-ktx-2.8.7\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.7] C:\Users\thana\.gradle\caches\9.0.0\transforms\9cf616cdfb89965de3b879e314ba8c08\transformed\lifecycle-runtime-ktx-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.7] C:\Users\thana\.gradle\caches\9.0.0\transforms\dbc444337e55a436a4a8ec2523812e25\transformed\lifecycle-viewmodel-compose-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-extended-android:1.7.5] C:\Users\thana\.gradle\caches\9.0.0\transforms\2e57294936b7546ee4332a07de541eb1\transformed\material-icons-extended-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.5] C:\Users\thana\.gradle\caches\9.0.0\transforms\a6d26ed4638ed143c4673fe82d2f04bb\transformed\material-icons-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-android:1.7.5] C:\Users\thana\.gradle\caches\9.0.0\transforms\6cc00968fe9031d51378dd8f52fb35e3\transformed\ui-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-ktx:1.9.3] C:\Users\thana\.gradle\caches\9.0.0\transforms\1b9315fdec1b191797c0ac7dcb065545\transformed\activity-ktx-1.9.3\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-compose:1.9.3] C:\Users\thana\.gradle\caches\9.0.0\transforms\6d5008aea052aa6ab3dafb389543d602\transformed\activity-compose-1.9.3\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\cd40143cf4616113eca4ddde5a8c468f\transformed\sqlite-framework-2.4.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.4.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\a65ed6f4bfd148759f0cd64f0235aef8\transformed\sqlite-2.4.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\d1940630da277ab5dd06ce7b58021b5f\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\6f94298e24706ac733539c778f89ce4f\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\55532008374a88a0503712f3a012ad31\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.2.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\e52b53ff554b6bd241c58149b9883d41\transformed\transport-backend-cct-3.2.0\AndroidManifest.xml:15:1-35:12
+MERGED from [com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\97390a09bf185fae41ad1fe29745eaa4\transformed\transport-runtime-3.2.0\AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.android.datatransport:transport-api:3.1.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\86522395061b387c051a1efe3aa65e89\transformed\transport-api-3.1.0\AndroidManifest.xml:15:1-20:12
+MERGED from [androidx.databinding:viewbinding:8.4.2] C:\Users\thana\.gradle\caches\9.0.0\transforms\5ad88c7261f4d1ae1491576e6fa73987\transformed\viewbinding-8.4.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\cbe55d5c48e445232719cab8ad3cf297\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\86d568ed34e190c223c931b480e4fcd3\transformed\firebase-encoders-json-18.0.0\AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\85233be038e856dad74770debcc3a485\transformed\profileinstaller-1.3.1\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\f11e3a4c166784f2969398cf50a1226a\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\b6824056d8ac3f19611b4fc8c1615c98\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\d17ee5fab458bd005ebfa4bc3efc9323\transformed\tracing-1.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\0a1d7a10dcebddb9471b4373b58f6702\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\697699fde818e0404e8e6a83be53c702\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\9e69047201bc79e604af31e1552c20ff\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\69bd63eda36c919b282d5c1849d37e27\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.volley:volley:1.2.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\9d7dc67a5cce333c202dfa955fe63c08\transformed\volley-1.2.1\AndroidManifest.xml:2:1-7:12
+	package
+		INJECTED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:4:5-79
+MERGED from [com.google.android.libraries.places:places:4.1.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\ddcec1965bb0de493b74554ba6a95d7c\transformed\places-4.1.0\AndroidManifest.xml:10:5-79
+MERGED from [com.google.android.libraries.places:places:4.1.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\ddcec1965bb0de493b74554ba6a95d7c\transformed\places-4.1.0\AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:4:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:5:5-81
+MERGED from [com.google.android.libraries.places:places:4.1.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\ddcec1965bb0de493b74554ba6a95d7c\transformed\places-4.1.0\AndroidManifest.xml:9:5-81
+MERGED from [com.google.android.libraries.places:places:4.1.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\ddcec1965bb0de493b74554ba6a95d7c\transformed\places-4.1.0\AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:5:22-78
+uses-permission#android.permission.ACCESS_BACKGROUND_LOCATION
+ADDED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:6:5-85
+	android:name
+		ADDED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:6:22-82
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:7:5-81
+MERGED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:25:5-81
+MERGED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:25:5-81
+	android:name
+		ADDED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:7:22-78
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:8:5-77
+	android:name
+		ADDED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:8:22-74
+uses-permission#android.permission.INTERNET
+ADDED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:9:5-67
+MERGED from [com.google.android.libraries.places:places:4.1.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\ddcec1965bb0de493b74554ba6a95d7c\transformed\places-4.1.0\AndroidManifest.xml:12:5-67
+MERGED from [com.google.android.libraries.places:places:4.1.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\ddcec1965bb0de493b74554ba6a95d7c\transformed\places-4.1.0\AndroidManifest.xml:12:5-67
+MERGED from [com.google.android.gms:play-services-maps:19.0.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\e1d162918205391d95697b69270eb4d2\transformed\play-services-maps-19.0.0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:19.0.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\e1d162918205391d95697b69270eb4d2\transformed\play-services-maps-19.0.0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.2.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\e52b53ff554b6bd241c58149b9883d41\transformed\transport-backend-cct-3.2.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.2.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\e52b53ff554b6bd241c58149b9883d41\transformed\transport-backend-cct-3.2.0\AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:9:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:10:5-79
+MERGED from [com.google.android.gms:play-services-maps:19.0.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\e1d162918205391d95697b69270eb4d2\transformed\play-services-maps-19.0.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:19.0.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\e1d162918205391d95697b69270eb4d2\transformed\play-services-maps-19.0.0\AndroidManifest.xml:23:5-79
+MERGED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:24:5-79
+MERGED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.2.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\e52b53ff554b6bd241c58149b9883d41\transformed\transport-backend-cct-3.2.0\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.2.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\e52b53ff554b6bd241c58149b9883d41\transformed\transport-backend-cct-3.2.0\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\97390a09bf185fae41ad1fe29745eaa4\transformed\transport-runtime-3.2.0\AndroidManifest.xml:20:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\97390a09bf185fae41ad1fe29745eaa4\transformed\transport-runtime-3.2.0\AndroidManifest.xml:20:5-79
+	android:name
+		ADDED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:10:22-76
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:11:5-77
+MERGED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:26:5-77
+MERGED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:26:5-77
+	android:name
+		ADDED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:11:22-74
+uses-permission#android.permission.FOREGROUND_SERVICE_LOCATION
+ADDED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:12:5-86
+	android:name
+		ADDED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:12:22-83
+application
+ADDED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:14:5-58:19
+INJECTED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:14:5-58:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.5] C:\Users\thana\.gradle\caches\9.0.0\transforms\bff9d8a4086390f1fe8bfb3caaaabdbb\transformed\ui-tooling-release\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.5] C:\Users\thana\.gradle\caches\9.0.0\transforms\bff9d8a4086390f1fe8bfb3caaaabdbb\transformed\ui-tooling-release\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.libraries.places:places:4.1.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\ddcec1965bb0de493b74554ba6a95d7c\transformed\places-4.1.0\AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.android.libraries.places:places:4.1.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\ddcec1965bb0de493b74554ba6a95d7c\transformed\places-4.1.0\AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.android.gms:play-services-maps:19.0.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\e1d162918205391d95697b69270eb4d2\transformed\play-services-maps-19.0.0\AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-maps:19.0.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\e1d162918205391d95697b69270eb4d2\transformed\play-services-maps-19.0.0\AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-location:21.3.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\2bac0d5a8999bc5c382761fff7af3392\transformed\play-services-location-21.3.0\AndroidManifest.xml:6:5-20
+MERGED from [com.google.android.gms:play-services-location:21.3.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\2bac0d5a8999bc5c382761fff7af3392\transformed\play-services-location-21.3.0\AndroidManifest.xml:6:5-20
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\88344469396a51705f44f0fe320e4d58\transformed\play-services-base-18.5.0\AndroidManifest.xml:4:5-6:19
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\88344469396a51705f44f0fe320e4d58\transformed\play-services-base-18.5.0\AndroidManifest.xml:4:5-6:19
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\8810fe526acb80a02bdb99c299c4f2cc\transformed\room-runtime-2.6.1\AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\8810fe526acb80a02bdb99c299c4f2cc\transformed\room-runtime-2.6.1\AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:28:5-143:19
+MERGED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:28:5-143:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\8478eefe6895d95612ab9638a0afad6c\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\8478eefe6895d95612ab9638a0afad6c\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.15.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\5c37bd52409ad31ed27f469f214d2c2b\transformed\core-1.15.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.15.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\5c37bd52409ad31ed27f469f214d2c2b\transformed\core-1.15.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\thana\.gradle\caches\9.0.0\transforms\e280c6c5959bee6e94fcf94418c2e504\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\thana\.gradle\caches\9.0.0\transforms\e280c6c5959bee6e94fcf94418c2e504\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\89cbceaf812312b17fd6270f0a3a1fab\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\89cbceaf812312b17fd6270f0a3a1fab\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\ba7005eb66eb63b54c99257e5e9e3435\transformed\play-services-basement-18.4.0\AndroidManifest.xml:5:5-7:19
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\ba7005eb66eb63b54c99257e5e9e3435\transformed\play-services-basement-18.4.0\AndroidManifest.xml:5:5-7:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.2.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\e52b53ff554b6bd241c58149b9883d41\transformed\transport-backend-cct-3.2.0\AndroidManifest.xml:25:5-33:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.2.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\e52b53ff554b6bd241c58149b9883d41\transformed\transport-backend-cct-3.2.0\AndroidManifest.xml:25:5-33:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\97390a09bf185fae41ad1fe29745eaa4\transformed\transport-runtime-3.2.0\AndroidManifest.xml:23:5-37:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\97390a09bf185fae41ad1fe29745eaa4\transformed\transport-runtime-3.2.0\AndroidManifest.xml:23:5-37:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\85233be038e856dad74770debcc3a485\transformed\profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\85233be038e856dad74770debcc3a485\transformed\profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\f11e3a4c166784f2969398cf50a1226a\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\f11e3a4c166784f2969398cf50a1226a\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\0a1d7a10dcebddb9471b4373b58f6702\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\0a1d7a10dcebddb9471b4373b58f6702\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+	android:extractNativeLibs
+		INJECTED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.15.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\5c37bd52409ad31ed27f469f214d2c2b\transformed\core-1.15.0\AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:19:9-35
+	android:label
+		ADDED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:17:9-33
+	android:roundIcon
+		ADDED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:18:9-54
+	android:icon
+		ADDED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:16:9-43
+	android:allowBackup
+		ADDED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:15:9-35
+	android:theme
+		ADDED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:20:9-46
+	android:usesCleartextTraffic
+		ADDED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:21:9-44
+meta-data#com.google.android.geo.API_KEY
+ADDED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:22:9-24:70
+	android:value
+		ADDED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:24:13-68
+	android:name
+		ADDED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:23:13-58
+activity#com.example.nearnote.MainActivity
+ADDED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:26:9-33:20
+	android:exported
+		ADDED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:28:13-36
+	android:name
+		ADDED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:27:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:29:13-32:29
+action#android.intent.action.MAIN
+ADDED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:30:17-69
+	android:name
+		ADDED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:30:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:31:17-77
+	android:name
+		ADDED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:31:27-74
+receiver#com.example.nearnote.service.GeofenceBroadcastReceiver
+ADDED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:35:9-37:39
+	android:exported
+		ADDED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:37:13-36
+	android:name
+		ADDED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:36:13-62
+receiver#com.example.nearnote.service.BootReceiver
+ADDED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:39:9-45:20
+	android:exported
+		ADDED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:41:13-36
+	android:name
+		ADDED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:40:13-49
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED
+ADDED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:42:13-44:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:43:17-79
+	android:name
+		ADDED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:43:25-76
+service#com.example.nearnote.service.GeofenceTransitionsService
+ADDED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:47:9-50:56
+	android:exported
+		ADDED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:49:13-37
+	android:foregroundServiceType
+		ADDED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:50:13-53
+	android:name
+		ADDED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:48:13-63
+service#com.example.nearnote.service.LocationForegroundService
+ADDED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:52:9-56:44
+	android:exported
+		ADDED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:55:13-37
+	android:stopWithTask
+		ADDED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:56:13-41
+	android:foregroundServiceType
+		ADDED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:54:13-53
+	android:name
+		ADDED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml:53:13-62
+uses-sdk
+INJECTED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml
+INJECTED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml
+MERGED from [androidx.navigation:navigation-common:2.8.4] C:\Users\thana\.gradle\caches\9.0.0\transforms\88c3ffd00b8eb0af3e50bee8fe9ce2e5\transformed\navigation-common-2.8.4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.8.4] C:\Users\thana\.gradle\caches\9.0.0\transforms\88c3ffd00b8eb0af3e50bee8fe9ce2e5\transformed\navigation-common-2.8.4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.8.4] C:\Users\thana\.gradle\caches\9.0.0\transforms\698224e12573afe920daa045bc51ec6f\transformed\navigation-runtime-2.8.4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.8.4] C:\Users\thana\.gradle\caches\9.0.0\transforms\698224e12573afe920daa045bc51ec6f\transformed\navigation-runtime-2.8.4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.8.4] C:\Users\thana\.gradle\caches\9.0.0\transforms\7e5928357086db6881e9535ec0bf0f9c\transformed\navigation-common-ktx-2.8.4\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.8.4] C:\Users\thana\.gradle\caches\9.0.0\transforms\7e5928357086db6881e9535ec0bf0f9c\transformed\navigation-common-ktx-2.8.4\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.8.4] C:\Users\thana\.gradle\caches\9.0.0\transforms\9c08b01d82ca662c97f2457b0eff8e06\transformed\navigation-runtime-ktx-2.8.4\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.8.4] C:\Users\thana\.gradle\caches\9.0.0\transforms\9c08b01d82ca662c97f2457b0eff8e06\transformed\navigation-runtime-ktx-2.8.4\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.8.4] C:\Users\thana\.gradle\caches\9.0.0\transforms\ced2880176deaf4212afd8f251c6d73a\transformed\navigation-compose-2.8.4\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.8.4] C:\Users\thana\.gradle\caches\9.0.0\transforms\ced2880176deaf4212afd8f251c6d73a\transformed\navigation-compose-2.8.4\AndroidManifest.xml:5:5-44
+MERGED from [com.google.maps.android:maps-compose:6.1.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\c75ef8ec2993b1ce0052c77d89e0fd71\transformed\maps-compose-6.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.maps.android:maps-compose:6.1.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\c75ef8ec2993b1ce0052c77d89e0fd71\transformed\maps-compose-6.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3-android:1.3.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\7a030b27bb5c4efe45c6fd97fc9a019e\transformed\material3-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3-android:1.3.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\7a030b27bb5c4efe45c6fd97fc9a019e\transformed\material3-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-android:1.7.5] C:\Users\thana\.gradle\caches\9.0.0\transforms\ca9376a2000089e3ff0422059d200c2b\transformed\material-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-android:1.7.5] C:\Users\thana\.gradle\caches\9.0.0\transforms\ca9376a2000089e3ff0422059d200c2b\transformed\material-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.7.5] C:\Users\thana\.gradle\caches\9.0.0\transforms\790c001dfd899cd6e93f8bfdce85891b\transformed\animation-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.7.5] C:\Users\thana\.gradle\caches\9.0.0\transforms\790c001dfd899cd6e93f8bfdce85891b\transformed\animation-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.7.5] C:\Users\thana\.gradle\caches\9.0.0\transforms\ed5454a1a47c18030773febb9cc52cd8\transformed\material-ripple-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.7.5] C:\Users\thana\.gradle\caches\9.0.0\transforms\ed5454a1a47c18030773febb9cc52cd8\transformed\material-ripple-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.7.5] C:\Users\thana\.gradle\caches\9.0.0\transforms\a6a40b3b7fc208bf97dfd7ebbb6f1323\transformed\animation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.7.5] C:\Users\thana\.gradle\caches\9.0.0\transforms\a6a40b3b7fc208bf97dfd7ebbb6f1323\transformed\animation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.5] C:\Users\thana\.gradle\caches\9.0.0\transforms\9ca8e83a73d45e7af6c172f491345fbe\transformed\foundation-layout-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.5] C:\Users\thana\.gradle\caches\9.0.0\transforms\9ca8e83a73d45e7af6c172f491345fbe\transformed\foundation-layout-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.7.5] C:\Users\thana\.gradle\caches\9.0.0\transforms\fd05e19bae1f3a71b6aed140d5a62a03\transformed\foundation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.7.5] C:\Users\thana\.gradle\caches\9.0.0\transforms\fd05e19bae1f3a71b6aed140d5a62a03\transformed\foundation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.5] C:\Users\thana\.gradle\caches\9.0.0\transforms\7050b4e6b5d3de598092befb3505a134\transformed\ui-tooling-data-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.5] C:\Users\thana\.gradle\caches\9.0.0\transforms\7050b4e6b5d3de598092befb3505a134\transformed\ui-tooling-data-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.5] C:\Users\thana\.gradle\caches\9.0.0\transforms\7bad4daa5517d4f8adbaa48b3a06509e\transformed\ui-unit-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.5] C:\Users\thana\.gradle\caches\9.0.0\transforms\7bad4daa5517d4f8adbaa48b3a06509e\transformed\ui-unit-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.5] C:\Users\thana\.gradle\caches\9.0.0\transforms\bac5275f643f32540635e6e47a87eee7\transformed\ui-geometry-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.5] C:\Users\thana\.gradle\caches\9.0.0\transforms\bac5275f643f32540635e6e47a87eee7\transformed\ui-geometry-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.7.5] C:\Users\thana\.gradle\caches\9.0.0\transforms\05c7c9ddd1a24cf7aad3e0dd091c2736\transformed\ui-util-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.7.5] C:\Users\thana\.gradle\caches\9.0.0\transforms\05c7c9ddd1a24cf7aad3e0dd091c2736\transformed\ui-util-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.7.5] C:\Users\thana\.gradle\caches\9.0.0\transforms\3227c510a81536d49ed09d768fe688c8\transformed\ui-text-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.7.5] C:\Users\thana\.gradle\caches\9.0.0\transforms\3227c510a81536d49ed09d768fe688c8\transformed\ui-text-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.5] C:\Users\thana\.gradle\caches\9.0.0\transforms\9a98ed607400cf798dd4ba5f03e2f9c8\transformed\ui-tooling-preview-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.5] C:\Users\thana\.gradle\caches\9.0.0\transforms\9a98ed607400cf798dd4ba5f03e2f9c8\transformed\ui-tooling-preview-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.5] C:\Users\thana\.gradle\caches\9.0.0\transforms\bff9d8a4086390f1fe8bfb3caaaabdbb\transformed\ui-tooling-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.5] C:\Users\thana\.gradle\caches\9.0.0\transforms\bff9d8a4086390f1fe8bfb3caaaabdbb\transformed\ui-tooling-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.5] C:\Users\thana\.gradle\caches\9.0.0\transforms\e8fc7c13776e4d90be02efa2efcd61d5\transformed\ui-graphics-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.5] C:\Users\thana\.gradle\caches\9.0.0\transforms\e8fc7c13776e4d90be02efa2efcd61d5\transformed\ui-graphics-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-google-fonts:1.7.5] C:\Users\thana\.gradle\caches\9.0.0\transforms\90de4299ff01e06dfd4a41a429f4e693\transformed\ui-text-google-fonts-1.7.5\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-google-fonts:1.7.5] C:\Users\thana\.gradle\caches\9.0.0\transforms\90de4299ff01e06dfd4a41a429f4e693\transformed\ui-text-google-fonts-1.7.5\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.libraries.places:places:4.1.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\ddcec1965bb0de493b74554ba6a95d7c\transformed\places-4.1.0\AndroidManifest.xml:7:5-44
+MERGED from [com.google.android.libraries.places:places:4.1.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\ddcec1965bb0de493b74554ba6a95d7c\transformed\places-4.1.0\AndroidManifest.xml:7:5-44
+MERGED from [com.google.maps.android:maps-ktx:5.1.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\25fc9bf0174ca5eed23a26a11f333a47\transformed\maps-ktx-5.1.1\AndroidManifest.xml:21:5-44
+MERGED from [com.google.maps.android:maps-ktx:5.1.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\25fc9bf0174ca5eed23a26a11f333a47\transformed\maps-ktx-5.1.1\AndroidManifest.xml:21:5-44
+MERGED from [com.google.android.gms:play-services-maps:19.0.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\e1d162918205391d95697b69270eb4d2\transformed\play-services-maps-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:19.0.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\e1d162918205391d95697b69270eb4d2\transformed\play-services-maps-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:21.3.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\2bac0d5a8999bc5c382761fff7af3392\transformed\play-services-location-21.3.0\AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.gms:play-services-location:21.3.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\2bac0d5a8999bc5c382761fff7af3392\transformed\play-services-location-21.3.0\AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\88344469396a51705f44f0fe320e4d58\transformed\play-services-base-18.5.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\88344469396a51705f44f0fe320e4d58\transformed\play-services-base-18.5.0\AndroidManifest.xml:3:5-44
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\8810fe526acb80a02bdb99c299c4f2cc\transformed\room-runtime-2.6.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\8810fe526acb80a02bdb99c299c4f2cc\transformed\room-runtime-2.6.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.work:work-runtime-ktx:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\4ce694b74164eaadd45a9cfb83fbc89e\transformed\work-runtime-ktx-2.9.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.work:work-runtime-ktx:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\4ce694b74164eaadd45a9cfb83fbc89e\transformed\work-runtime-ktx-2.9.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-ktx:2.6.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\1dbf0fb1404c6f9160f9ff032c8fabfd\transformed\room-ktx-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-ktx:2.6.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\1dbf0fb1404c6f9160f9ff032c8fabfd\transformed\room-ktx-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\b74c3e64f92601a528775fdd94cf6452\transformed\appcompat-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\b74c3e64f92601a528775fdd94cf6452\transformed\appcompat-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\d424465fba5eae546f62ffffe500d8d7\transformed\vectordrawable-animated-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\d424465fba5eae546f62ffffe500d8d7\transformed\vectordrawable-animated-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\990088c8d1bd2baeeb2f0ca7dce28fd9\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\990088c8d1bd2baeeb2f0ca7dce28fd9\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\9d52f1d0e8b5fa74b9af154ce5685803\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\9d52f1d0e8b5fa74b9af154ce5685803\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\46539fd0b0d8ca061d8030c5a13eb937\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\46539fd0b0d8ca061d8030c5a13eb937\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\b0111f8a4d2be9b8adf1ee0afc42d5e0\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\b0111f8a4d2be9b8adf1ee0afc42d5e0\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\387af779c83655583185ad3a52fb15d8\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\387af779c83655583185ad3a52fb15d8\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.3.2] C:\Users\thana\.gradle\caches\9.0.0\transforms\89bb1cb6a1a669bcce9977155dadb00b\transformed\recyclerview-1.3.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.3.2] C:\Users\thana\.gradle\caches\9.0.0\transforms\89bb1cb6a1a669bcce9977155dadb00b\transformed\recyclerview-1.3.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\bccdb33a23c1a067f9c048935bad9897\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\bccdb33a23c1a067f9c048935bad9897\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.15.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\ab3e3efecf6cec5ff44341369c56839b\transformed\core-ktx-1.15.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.15.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\ab3e3efecf6cec5ff44341369c56839b\transformed\core-ktx-1.15.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\5e811c746a0b545825c1238290128740\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\5e811c746a0b545825c1238290128740\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\44b7c876d7f74afa5d7f738de316fad4\transformed\vectordrawable-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\44b7c876d7f74afa5d7f738de316fad4\transformed\vectordrawable-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\a53302e5f4c3c6ed34941168d3955973\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\a53302e5f4c3c6ed34941168d3955973\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\9752f54b7ad80e2c8df3423f44f73c6f\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\9752f54b7ad80e2c8df3423f44f73c6f\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\b9d565569e27a218bf8ab78fde1b3f4c\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\b9d565569e27a218bf8ab78fde1b3f4c\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\6aa07db9a6fcd494d60bb62c1a01e258\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\6aa07db9a6fcd494d60bb62c1a01e258\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\d8a28498dbf7969f044446d815aed518\transformed\autofill-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\d8a28498dbf7969f044446d815aed518\transformed\autofill-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.graphics:graphics-path:1.0.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\149b2ce286bb5869137fa5950446793b\transformed\graphics-path-1.0.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.graphics:graphics-path:1.0.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\149b2ce286bb5869137fa5950446793b\transformed\graphics-path-1.0.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\8478eefe6895d95612ab9638a0afad6c\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\8478eefe6895d95612ab9638a0afad6c\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\2e438ee16ed8f4bde9d854af2392962c\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\2e438ee16ed8f4bde9d854af2392962c\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\d0206bfb676de6865c02c89ed650165f\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\d0206bfb676de6865c02c89ed650165f\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.15.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\5c37bd52409ad31ed27f469f214d2c2b\transformed\core-1.15.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.15.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\5c37bd52409ad31ed27f469f214d2c2b\transformed\core-1.15.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\thana\.gradle\caches\9.0.0\transforms\e280c6c5959bee6e94fcf94418c2e504\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\thana\.gradle\caches\9.0.0\transforms\e280c6c5959bee6e94fcf94418c2e504\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.7] C:\Users\thana\.gradle\caches\9.0.0\transforms\2f9e17fa39d10c9dfe39d040d518c844\transformed\lifecycle-runtime-compose-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.7] C:\Users\thana\.gradle\caches\9.0.0\transforms\2f9e17fa39d10c9dfe39d040d518c844\transformed\lifecycle-runtime-compose-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.7] C:\Users\thana\.gradle\caches\9.0.0\transforms\150f770171ecdc69ce70d013676ea384\transformed\lifecycle-livedata-core-ktx-2.8.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.7] C:\Users\thana\.gradle\caches\9.0.0\transforms\150f770171ecdc69ce70d013676ea384\transformed\lifecycle-livedata-core-ktx-2.8.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.7] C:\Users\thana\.gradle\caches\9.0.0\transforms\ca8a27dca76c8f5dbe1f173936495125\transformed\lifecycle-runtime-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.7] C:\Users\thana\.gradle\caches\9.0.0\transforms\ca8a27dca76c8f5dbe1f173936495125\transformed\lifecycle-runtime-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.7] C:\Users\thana\.gradle\caches\9.0.0\transforms\68f4fb13518efabbf5ea7da3d21d115b\transformed\lifecycle-livedata-core-2.8.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.7] C:\Users\thana\.gradle\caches\9.0.0\transforms\68f4fb13518efabbf5ea7da3d21d115b\transformed\lifecycle-livedata-core-2.8.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.8.7] C:\Users\thana\.gradle\caches\9.0.0\transforms\5c4a309b4332cd346aba353e75b9f808\transformed\lifecycle-service-2.8.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.8.7] C:\Users\thana\.gradle\caches\9.0.0\transforms\5c4a309b4332cd346aba353e75b9f808\transformed\lifecycle-service-2.8.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.7] C:\Users\thana\.gradle\caches\9.0.0\transforms\30f5ee4d583189e4b3f066ecdcd15cbb\transformed\lifecycle-livedata-2.8.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.7] C:\Users\thana\.gradle\caches\9.0.0\transforms\30f5ee4d583189e4b3f066ecdcd15cbb\transformed\lifecycle-livedata-2.8.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.7] C:\Users\thana\.gradle\caches\9.0.0\transforms\001bfc97b6acdddf441422c26db99658\transformed\lifecycle-viewmodel-2.8.7\AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.7] C:\Users\thana\.gradle\caches\9.0.0\transforms\001bfc97b6acdddf441422c26db99658\transformed\lifecycle-viewmodel-2.8.7\AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.7] C:\Users\thana\.gradle\caches\9.0.0\transforms\bb7d1dbcdb2c804edf9612d7bf41c8cb\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.7] C:\Users\thana\.gradle\caches\9.0.0\transforms\bb7d1dbcdb2c804edf9612d7bf41c8cb\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.5] C:\Users\thana\.gradle\caches\9.0.0\transforms\cf677ad1007ca8faf96e7a51b5963350\transformed\runtime-saveable-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.5] C:\Users\thana\.gradle\caches\9.0.0\transforms\cf677ad1007ca8faf96e7a51b5963350\transformed\runtime-saveable-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.7.5] C:\Users\thana\.gradle\caches\9.0.0\transforms\b640d432c2247443d0050d08e4b405b4\transformed\runtime-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.7.5] C:\Users\thana\.gradle\caches\9.0.0\transforms\b640d432c2247443d0050d08e4b405b4\transformed\runtime-release\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\89cbceaf812312b17fd6270f0a3a1fab\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\89cbceaf812312b17fd6270f0a3a1fab\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\ba7005eb66eb63b54c99257e5e9e3435\transformed\play-services-basement-18.4.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\ba7005eb66eb63b54c99257e5e9e3435\transformed\play-services-basement-18.4.0\AndroidManifest.xml:3:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\19bdd72953df025ffd6b29e9bccb8cb3\transformed\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\19bdd72953df025ffd6b29e9bccb8cb3\transformed\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.9.3] C:\Users\thana\.gradle\caches\9.0.0\transforms\42a1bb84a9a4983ae1584251b95f6a72\transformed\activity-1.9.3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.9.3] C:\Users\thana\.gradle\caches\9.0.0\transforms\42a1bb84a9a4983ae1584251b95f6a72\transformed\activity-1.9.3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.7] C:\Users\thana\.gradle\caches\9.0.0\transforms\280e263c620b6b1ec1d09d307c482fe3\transformed\lifecycle-viewmodel-savedstate-2.8.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.7] C:\Users\thana\.gradle\caches\9.0.0\transforms\280e263c620b6b1ec1d09d307c482fe3\transformed\lifecycle-viewmodel-savedstate-2.8.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7] C:\Users\thana\.gradle\caches\9.0.0\transforms\a54e3a42bf91c4d2712fda6c321ab2fc\transformed\lifecycle-viewmodel-ktx-2.8.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7] C:\Users\thana\.gradle\caches\9.0.0\transforms\a54e3a42bf91c4d2712fda6c321ab2fc\transformed\lifecycle-viewmodel-ktx-2.8.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.7] C:\Users\thana\.gradle\caches\9.0.0\transforms\9cf616cdfb89965de3b879e314ba8c08\transformed\lifecycle-runtime-ktx-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.7] C:\Users\thana\.gradle\caches\9.0.0\transforms\9cf616cdfb89965de3b879e314ba8c08\transformed\lifecycle-runtime-ktx-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.7] C:\Users\thana\.gradle\caches\9.0.0\transforms\dbc444337e55a436a4a8ec2523812e25\transformed\lifecycle-viewmodel-compose-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.7] C:\Users\thana\.gradle\caches\9.0.0\transforms\dbc444337e55a436a4a8ec2523812e25\transformed\lifecycle-viewmodel-compose-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-extended-android:1.7.5] C:\Users\thana\.gradle\caches\9.0.0\transforms\2e57294936b7546ee4332a07de541eb1\transformed\material-icons-extended-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-extended-android:1.7.5] C:\Users\thana\.gradle\caches\9.0.0\transforms\2e57294936b7546ee4332a07de541eb1\transformed\material-icons-extended-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.5] C:\Users\thana\.gradle\caches\9.0.0\transforms\a6d26ed4638ed143c4673fe82d2f04bb\transformed\material-icons-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.5] C:\Users\thana\.gradle\caches\9.0.0\transforms\a6d26ed4638ed143c4673fe82d2f04bb\transformed\material-icons-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.7.5] C:\Users\thana\.gradle\caches\9.0.0\transforms\6cc00968fe9031d51378dd8f52fb35e3\transformed\ui-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.7.5] C:\Users\thana\.gradle\caches\9.0.0\transforms\6cc00968fe9031d51378dd8f52fb35e3\transformed\ui-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.3] C:\Users\thana\.gradle\caches\9.0.0\transforms\1b9315fdec1b191797c0ac7dcb065545\transformed\activity-ktx-1.9.3\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.3] C:\Users\thana\.gradle\caches\9.0.0\transforms\1b9315fdec1b191797c0ac7dcb065545\transformed\activity-ktx-1.9.3\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.9.3] C:\Users\thana\.gradle\caches\9.0.0\transforms\6d5008aea052aa6ab3dafb389543d602\transformed\activity-compose-1.9.3\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.9.3] C:\Users\thana\.gradle\caches\9.0.0\transforms\6d5008aea052aa6ab3dafb389543d602\transformed\activity-compose-1.9.3\AndroidManifest.xml:5:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\cd40143cf4616113eca4ddde5a8c468f\transformed\sqlite-framework-2.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\cd40143cf4616113eca4ddde5a8c468f\transformed\sqlite-framework-2.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.4.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\a65ed6f4bfd148759f0cd64f0235aef8\transformed\sqlite-2.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.4.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\a65ed6f4bfd148759f0cd64f0235aef8\transformed\sqlite-2.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\d1940630da277ab5dd06ce7b58021b5f\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\d1940630da277ab5dd06ce7b58021b5f\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\6f94298e24706ac733539c778f89ce4f\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\6f94298e24706ac733539c778f89ce4f\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\55532008374a88a0503712f3a012ad31\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\55532008374a88a0503712f3a012ad31\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.2.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\e52b53ff554b6bd241c58149b9883d41\transformed\transport-backend-cct-3.2.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.2.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\e52b53ff554b6bd241c58149b9883d41\transformed\transport-backend-cct-3.2.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\97390a09bf185fae41ad1fe29745eaa4\transformed\transport-runtime-3.2.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\97390a09bf185fae41ad1fe29745eaa4\transformed\transport-runtime-3.2.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.android.datatransport:transport-api:3.1.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\86522395061b387c051a1efe3aa65e89\transformed\transport-api-3.1.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.android.datatransport:transport-api:3.1.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\86522395061b387c051a1efe3aa65e89\transformed\transport-api-3.1.0\AndroidManifest.xml:18:5-44
+MERGED from [androidx.databinding:viewbinding:8.4.2] C:\Users\thana\.gradle\caches\9.0.0\transforms\5ad88c7261f4d1ae1491576e6fa73987\transformed\viewbinding-8.4.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:8.4.2] C:\Users\thana\.gradle\caches\9.0.0\transforms\5ad88c7261f4d1ae1491576e6fa73987\transformed\viewbinding-8.4.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\cbe55d5c48e445232719cab8ad3cf297\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\cbe55d5c48e445232719cab8ad3cf297\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\86d568ed34e190c223c931b480e4fcd3\transformed\firebase-encoders-json-18.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\86d568ed34e190c223c931b480e4fcd3\transformed\firebase-encoders-json-18.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\85233be038e856dad74770debcc3a485\transformed\profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\85233be038e856dad74770debcc3a485\transformed\profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\f11e3a4c166784f2969398cf50a1226a\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\f11e3a4c166784f2969398cf50a1226a\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\b6824056d8ac3f19611b4fc8c1615c98\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\b6824056d8ac3f19611b4fc8c1615c98\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\d17ee5fab458bd005ebfa4bc3efc9323\transformed\tracing-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\d17ee5fab458bd005ebfa4bc3efc9323\transformed\tracing-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\0a1d7a10dcebddb9471b4373b58f6702\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\0a1d7a10dcebddb9471b4373b58f6702\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\697699fde818e0404e8e6a83be53c702\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\697699fde818e0404e8e6a83be53c702\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\9e69047201bc79e604af31e1552c20ff\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\9e69047201bc79e604af31e1552c20ff\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\69bd63eda36c919b282d5c1849d37e27\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\69bd63eda36c919b282d5c1849d37e27\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.volley:volley:1.2.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\9d7dc67a5cce333c202dfa955fe63c08\transformed\volley-1.2.1\AndroidManifest.xml:5:5-43
+MERGED from [com.android.volley:volley:1.2.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\9d7dc67a5cce333c202dfa955fe63c08\transformed\volley-1.2.1\AndroidManifest.xml:5:5-43
+	android:targetSdkVersion
+		INJECTED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Repo Github\Projects\app\src\main\AndroidManifest.xml
+activity#androidx.compose.ui.tooling.PreviewActivity
+ADDED from [androidx.compose.ui:ui-tooling-android:1.7.5] C:\Users\thana\.gradle\caches\9.0.0\transforms\bff9d8a4086390f1fe8bfb3caaaabdbb\transformed\ui-tooling-release\AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.7.5] C:\Users\thana\.gradle\caches\9.0.0\transforms\bff9d8a4086390f1fe8bfb3caaaabdbb\transformed\ui-tooling-release\AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.7.5] C:\Users\thana\.gradle\caches\9.0.0\transforms\bff9d8a4086390f1fe8bfb3caaaabdbb\transformed\ui-tooling-release\AndroidManifest.xml:24:13-71
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [com.google.android.libraries.places:places:4.1.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\ddcec1965bb0de493b74554ba6a95d7c\transformed\places-4.1.0\AndroidManifest.xml:11:5-76
+	android:name
+		ADDED from [com.google.android.libraries.places:places:4.1.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\ddcec1965bb0de493b74554ba6a95d7c\transformed\places-4.1.0\AndroidManifest.xml:11:22-73
+activity#com.google.android.libraries.places.widget.AutocompleteActivity
+ADDED from [com.google.android.libraries.places:places:4.1.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\ddcec1965bb0de493b74554ba6a95d7c\transformed\places-4.1.0\AndroidManifest.xml:15:9-21:20
+	android:label
+		ADDED from [com.google.android.libraries.places:places:4.1.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\ddcec1965bb0de493b74554ba6a95d7c\transformed\places-4.1.0\AndroidManifest.xml:18:13-62
+	android:windowSoftInputMode
+		ADDED from [com.google.android.libraries.places:places:4.1.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\ddcec1965bb0de493b74554ba6a95d7c\transformed\places-4.1.0\AndroidManifest.xml:20:13-55
+	android:exported
+		ADDED from [com.google.android.libraries.places:places:4.1.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\ddcec1965bb0de493b74554ba6a95d7c\transformed\places-4.1.0\AndroidManifest.xml:17:13-37
+	android:theme
+		ADDED from [com.google.android.libraries.places:places:4.1.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\ddcec1965bb0de493b74554ba6a95d7c\transformed\places-4.1.0\AndroidManifest.xml:19:13-61
+	android:name
+		ADDED from [com.google.android.libraries.places:places:4.1.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\ddcec1965bb0de493b74554ba6a95d7c\transformed\places-4.1.0\AndroidManifest.xml:16:13-91
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:19.0.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\e1d162918205391d95697b69270eb4d2\transformed\play-services-maps-19.0.0\AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:19.0.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\e1d162918205391d95697b69270eb4d2\transformed\play-services-maps-19.0.0\AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:19.0.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\e1d162918205391d95697b69270eb4d2\transformed\play-services-maps-19.0.0\AndroidManifest.xml:28:9-32
+queries
+ADDED from [com.google.android.gms:play-services-maps:19.0.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\e1d162918205391d95697b69270eb4d2\transformed\play-services-maps-19.0.0\AndroidManifest.xml:30:5-34:15
+package#com.google.android.apps.maps
+ADDED from [com.google.android.gms:play-services-maps:19.0.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\e1d162918205391d95697b69270eb4d2\transformed\play-services-maps-19.0.0\AndroidManifest.xml:33:9-64
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:19.0.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\e1d162918205391d95697b69270eb4d2\transformed\play-services-maps-19.0.0\AndroidManifest.xml:33:18-61
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:19.0.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\e1d162918205391d95697b69270eb4d2\transformed\play-services-maps-19.0.0\AndroidManifest.xml:39:9-41:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:19.0.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\e1d162918205391d95697b69270eb4d2\transformed\play-services-maps-19.0.0\AndroidManifest.xml:41:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:19.0.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\e1d162918205391d95697b69270eb4d2\transformed\play-services-maps-19.0.0\AndroidManifest.xml:40:13-50
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\88344469396a51705f44f0fe320e4d58\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\88344469396a51705f44f0fe320e4d58\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\88344469396a51705f44f0fe320e4d58\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\88344469396a51705f44f0fe320e4d58\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\8810fe526acb80a02bdb99c299c4f2cc\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\8810fe526acb80a02bdb99c299c4f2cc\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\8810fe526acb80a02bdb99c299c4f2cc\transformed\room-runtime-2.6.1\AndroidManifest.xml:28:13-60
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\8810fe526acb80a02bdb99c299c4f2cc\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\8810fe526acb80a02bdb99c299c4f2cc\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:23:5-68
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:23:22-65
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:29:9-37:20
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\8478eefe6895d95612ab9638a0afad6c\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\8478eefe6895d95612ab9638a0afad6c\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\thana\.gradle\caches\9.0.0\transforms\e280c6c5959bee6e94fcf94418c2e504\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\thana\.gradle\caches\9.0.0\transforms\e280c6c5959bee6e94fcf94418c2e504\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\85233be038e856dad74770debcc3a485\transformed\profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\85233be038e856dad74770debcc3a485\transformed\profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\f11e3a4c166784f2969398cf50a1226a\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\f11e3a4c166784f2969398cf50a1226a\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:33:13-31
+	android:authorities
+		ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:31:13-68
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:30:13-67
+meta-data#androidx.work.WorkManagerInitializer
+ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:34:13-36:52
+	android:value
+		ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:36:17-49
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:35:17-68
+service#androidx.work.impl.background.systemalarm.SystemAlarmService
+ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:39:9-45:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:42:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:43:13-37
+	tools:ignore
+		ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:44:13-60
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:45:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:41:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:40:13-88
+service#androidx.work.impl.background.systemjob.SystemJobService
+ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:46:9-52:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:49:13-70
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:50:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:51:13-69
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:52:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:48:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:47:13-84
+service#androidx.work.impl.foreground.SystemForegroundService
+ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:53:9-59:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:56:13-77
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:57:13-37
+	tools:ignore
+		ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:58:13-60
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:59:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:55:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:54:13-81
+receiver#androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:61:9-66:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:64:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:65:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:66:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:63:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:62:13-88
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:67:9-77:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:70:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:71:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:72:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:69:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:68:13-106
+intent-filter#action:name:android.intent.action.ACTION_POWER_CONNECTED+action:name:android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:73:13-76:29
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:74:17-87
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:74:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:75:17-90
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:75:25-87
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:78:9-88:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:81:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:82:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:83:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:80:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:79:13-104
+intent-filter#action:name:android.intent.action.BATTERY_LOW+action:name:android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:84:13-87:29
+action#android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:85:17-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:85:25-74
+action#android.intent.action.BATTERY_LOW
+ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:86:17-76
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:86:25-73
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:89:9-99:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:92:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:93:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:94:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:91:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:90:13-104
+intent-filter#action:name:android.intent.action.DEVICE_STORAGE_LOW+action:name:android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:95:13-98:29
+action#android.intent.action.DEVICE_STORAGE_LOW
+ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:96:17-83
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:96:25-80
+action#android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:97:17-82
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:97:25-79
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:100:9-109:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:103:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:104:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:105:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:102:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:101:13-103
+intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:106:13-108:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:107:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:107:25-76
+receiver#androidx.work.impl.background.systemalarm.RescheduleReceiver
+ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:110:9-121:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:113:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:114:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:115:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:112:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:111:13-88
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.TIMEZONE_CHANGED+action:name:android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:116:13-120:29
+action#android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:118:17-73
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:118:25-70
+action#android.intent.action.TIMEZONE_CHANGED
+ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:119:17-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:119:25-78
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:122:9-131:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:125:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:126:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:127:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:124:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:123:13-99
+intent-filter#action:name:androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:128:13-130:29
+action#androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:129:17-98
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:129:25-95
+receiver#androidx.work.impl.diagnostics.DiagnosticsReceiver
+ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:132:9-142:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:135:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:136:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:137:13-57
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:138:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:134:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:133:13-78
+intent-filter#action:name:androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:139:13-141:29
+action#androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:140:17-88
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\AndroidManifest.xml:140:25-85
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\8478eefe6895d95612ab9638a0afad6c\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\8478eefe6895d95612ab9638a0afad6c\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\8478eefe6895d95612ab9638a0afad6c\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.15.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\5c37bd52409ad31ed27f469f214d2c2b\transformed\core-1.15.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.15.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\5c37bd52409ad31ed27f469f214d2c2b\transformed\core-1.15.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.15.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\5c37bd52409ad31ed27f469f214d2c2b\transformed\core-1.15.0\AndroidManifest.xml:23:9-81
+permission#com.example.nearnote.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.15.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\5c37bd52409ad31ed27f469f214d2c2b\transformed\core-1.15.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.15.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\5c37bd52409ad31ed27f469f214d2c2b\transformed\core-1.15.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.15.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\5c37bd52409ad31ed27f469f214d2c2b\transformed\core-1.15.0\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.15.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\5c37bd52409ad31ed27f469f214d2c2b\transformed\core-1.15.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.15.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\5c37bd52409ad31ed27f469f214d2c2b\transformed\core-1.15.0\AndroidManifest.xml:26:22-94
+uses-permission#com.example.nearnote.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.15.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\5c37bd52409ad31ed27f469f214d2c2b\transformed\core-1.15.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.15.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\5c37bd52409ad31ed27f469f214d2c2b\transformed\core-1.15.0\AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\thana\.gradle\caches\9.0.0\transforms\e280c6c5959bee6e94fcf94418c2e504\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\thana\.gradle\caches\9.0.0\transforms\e280c6c5959bee6e94fcf94418c2e504\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\thana\.gradle\caches\9.0.0\transforms\e280c6c5959bee6e94fcf94418c2e504\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:30:17-78
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\ba7005eb66eb63b54c99257e5e9e3435\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\ba7005eb66eb63b54c99257e5e9e3435\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\ba7005eb66eb63b54c99257e5e9e3435\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:20-65
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.2.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\e52b53ff554b6bd241c58149b9883d41\transformed\transport-backend-cct-3.2.0\AndroidManifest.xml:26:9-32:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\97390a09bf185fae41ad1fe29745eaa4\transformed\transport-runtime-3.2.0\AndroidManifest.xml:34:9-36:40
+MERGED from [com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\97390a09bf185fae41ad1fe29745eaa4\transformed\transport-runtime-3.2.0\AndroidManifest.xml:34:9-36:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.2.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\e52b53ff554b6bd241c58149b9883d41\transformed\transport-backend-cct-3.2.0\AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.2.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\e52b53ff554b6bd241c58149b9883d41\transformed\transport-backend-cct-3.2.0\AndroidManifest.xml:27:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.2.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\e52b53ff554b6bd241c58149b9883d41\transformed\transport-backend-cct-3.2.0\AndroidManifest.xml:29:13-31:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.2.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\e52b53ff554b6bd241c58149b9883d41\transformed\transport-backend-cct-3.2.0\AndroidManifest.xml:31:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.2.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\e52b53ff554b6bd241c58149b9883d41\transformed\transport-backend-cct-3.2.0\AndroidManifest.xml:30:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\97390a09bf185fae41ad1fe29745eaa4\transformed\transport-runtime-3.2.0\AndroidManifest.xml:24:9-28:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\97390a09bf185fae41ad1fe29745eaa4\transformed\transport-runtime-3.2.0\AndroidManifest.xml:26:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\97390a09bf185fae41ad1fe29745eaa4\transformed\transport-runtime-3.2.0\AndroidManifest.xml:27:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\97390a09bf185fae41ad1fe29745eaa4\transformed\transport-runtime-3.2.0\AndroidManifest.xml:25:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\97390a09bf185fae41ad1fe29745eaa4\transformed\transport-runtime-3.2.0\AndroidManifest.xml:30:9-32:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\97390a09bf185fae41ad1fe29745eaa4\transformed\transport-runtime-3.2.0\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\thana\.gradle\caches\9.0.0\transforms\97390a09bf185fae41ad1fe29745eaa4\transformed\transport-runtime-3.2.0\AndroidManifest.xml:31:13-132
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\85233be038e856dad74770debcc3a485\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\85233be038e856dad74770debcc3a485\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\85233be038e856dad74770debcc3a485\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\85233be038e856dad74770debcc3a485\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\85233be038e856dad74770debcc3a485\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\85233be038e856dad74770debcc3a485\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\85233be038e856dad74770debcc3a485\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\85233be038e856dad74770debcc3a485\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\85233be038e856dad74770debcc3a485\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\85233be038e856dad74770debcc3a485\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\85233be038e856dad74770debcc3a485\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\85233be038e856dad74770debcc3a485\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\85233be038e856dad74770debcc3a485\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\85233be038e856dad74770debcc3a485\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\85233be038e856dad74770debcc3a485\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\85233be038e856dad74770debcc3a485\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\85233be038e856dad74770debcc3a485\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\85233be038e856dad74770debcc3a485\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\85233be038e856dad74770debcc3a485\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\85233be038e856dad74770debcc3a485\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\thana\.gradle\caches\9.0.0\transforms\85233be038e856dad74770debcc3a485\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
