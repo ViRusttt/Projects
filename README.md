@@ -1,33 +1,38 @@
 # NearNote — Location Reminder App
 
-แอป Android สำหรับแจ้งเตือนตามสถานที่ เมื่อเข้าใกล้สถานที่ที่ตั้งไว้ จะแจ้งเตือนพร้อมโน้ตที่เขียนไว้
+แอป Android สำหรับแจ้งเตือนตามสถานที่ต่างๆ เมื่อเข้าใกล้สถานที่ที่ตั้งไว้ จะแจ้งเตือนพร้อมโน้ตที่เขียนไว้
 
-## วิธีเปิดใน Android Studio
+## MVP
 
-1. แตกไฟล์ zip
-2. เปิด Android Studio → File → Open → เลือกโฟลเดอร์ `nearnote`
-3. รอ Gradle sync เสร็จ (ครั้งแรกอาจนาน 2-5 นาที)
-4. กด Run ▶
+1.สร้าง Location Reminder  
+ค้นหาสถานที่หรือปักหมุดบนแผนที่  
+กำหนดรัศมีการแจ้งเตือน  
+เขียนโน้ต/รายการสิ่งที่ต้องทำ  
+ตั้งชื่อสถานที  
 
-## Features
+2.แสดงรายการ Reminders  
+รายการ Reminders ทั้งหมด แสดงระยะห่างปัจจุบันจากแต่ละสถานที่  
+เปิด/ปิดการแจ้งเตือนได้แบบ toggle  
+แก้ไขและลบ reminder ได้  
 
-- ✅ เพิ่ม reminder ผูกกับสถานที่บนแผนที่
-- ✅ แผนที่ฟรี OSMDroid ไม่ต้อง API key
-- ✅ เลื่อนซ้ายเพื่อลบ reminder (swipe to delete)
-- ✅ Checklist ติ๊กได้ในหน้า detail
-- ✅ Push notification เมื่อเข้าใกล้สถานที่
-- ✅ Toggle เปิด/ปิดแต่ละ reminder
-- ✅ ผ่อนผัน 2 ชั่วโมง
+3.การแจ้งเตือน  
+Push notification เมื่อเข้าใกล้สถานที่  
+แสดงชื่อสถานที่ + โน้ตในการแจ้งเตือน  
+กด notification เพื่อดูรายละเอียดเต็ม  
+
+4.UI Reminder Detail  
+แสดงแผนที่พร้อมตำแหน่ง  
+แสดงโน้ตแบบ checklist (ติ๊กได้)  
+ปุ่ม "Snooze" (แจ้งซ้ำอีกครั้งในครั้งต่อไปที่ผ่าน)  
+
 
 ## Tech Stack
 
 - Kotlin + Jetpack Compose + Material 3
 - Room Database
-- Google Geofencing API (ฟรี ไม่ต้องบัตร)
-- OSMDroid (แผนที่ฟรี)
+- Google Geofencing API
 - WorkManager
 
 ## หมายเหตุ
 
-- ต้องอนุญาต Location permission ทั้ง "While using" และ "Always" เพื่อให้ geofence ทำงานได้
 - ทดสอบบน Android 8.0 (API 26) ขึ้นไป
