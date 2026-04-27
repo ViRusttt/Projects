@@ -1,0 +1,75 @@
+com.example.nearnote.app-ui-util-release-0 C:\Users\thana\.gradle\caches\9.0.0\transforms\05c7c9ddd1a24cf7aad3e0dd091c2736\transformed\ui-util-release\res
+com.example.nearnote.app-graphics-path-1.0.1-1 C:\Users\thana\.gradle\caches\9.0.0\transforms\149b2ce286bb5869137fa5950446793b\transformed\graphics-path-1.0.1\res
+com.example.nearnote.app-lifecycle-livedata-core-ktx-2.8.7-2 C:\Users\thana\.gradle\caches\9.0.0\transforms\150f770171ecdc69ce70d013676ea384\transformed\lifecycle-livedata-core-ktx-2.8.7\res
+com.example.nearnote.app-activity-ktx-1.9.3-3 C:\Users\thana\.gradle\caches\9.0.0\transforms\1b9315fdec1b191797c0ac7dcb065545\transformed\activity-ktx-1.9.3\res
+com.example.nearnote.app-room-ktx-2.6.1-4 C:\Users\thana\.gradle\caches\9.0.0\transforms\1dbf0fb1404c6f9160f9ff032c8fabfd\transformed\room-ktx-2.6.1\res
+com.example.nearnote.app-work-runtime-2.9.1-5 C:\Users\thana\.gradle\caches\9.0.0\transforms\238a6b3b30be7ac738da648ee63b4e93\transformed\work-runtime-2.9.1\res
+com.example.nearnote.app-lifecycle-viewmodel-savedstate-2.8.7-6 C:\Users\thana\.gradle\caches\9.0.0\transforms\280e263c620b6b1ec1d09d307c482fe3\transformed\lifecycle-viewmodel-savedstate-2.8.7\res
+com.example.nearnote.app-material-icons-extended-release-7 C:\Users\thana\.gradle\caches\9.0.0\transforms\2e57294936b7546ee4332a07de541eb1\transformed\material-icons-extended-release\res
+com.example.nearnote.app-lifecycle-runtime-compose-release-8 C:\Users\thana\.gradle\caches\9.0.0\transforms\2f9e17fa39d10c9dfe39d040d518c844\transformed\lifecycle-runtime-compose-release\res
+com.example.nearnote.app-lifecycle-livedata-2.8.7-9 C:\Users\thana\.gradle\caches\9.0.0\transforms\30f5ee4d583189e4b3f066ecdcd15cbb\transformed\lifecycle-livedata-2.8.7\res
+com.example.nearnote.app-ui-text-release-10 C:\Users\thana\.gradle\caches\9.0.0\transforms\3227c510a81536d49ed09d768fe688c8\transformed\ui-text-release\res
+com.example.nearnote.app-savedstate-1.2.1-11 C:\Users\thana\.gradle\caches\9.0.0\transforms\387af779c83655583185ad3a52fb15d8\transformed\savedstate-1.2.1\res
+com.example.nearnote.app-activity-1.9.3-12 C:\Users\thana\.gradle\caches\9.0.0\transforms\42a1bb84a9a4983ae1584251b95f6a72\transformed\activity-1.9.3\res
+com.example.nearnote.app-work-runtime-ktx-2.9.1-13 C:\Users\thana\.gradle\caches\9.0.0\transforms\4ce694b74164eaadd45a9cfb83fbc89e\transformed\work-runtime-ktx-2.9.1\res
+com.example.nearnote.app-cardview-1.0.0-14 C:\Users\thana\.gradle\caches\9.0.0\transforms\55532008374a88a0503712f3a012ad31\transformed\cardview-1.0.0\res
+com.example.nearnote.app-core-1.15.0-15 C:\Users\thana\.gradle\caches\9.0.0\transforms\5c37bd52409ad31ed27f469f214d2c2b\transformed\core-1.15.0\res
+com.example.nearnote.app-lifecycle-service-2.8.7-16 C:\Users\thana\.gradle\caches\9.0.0\transforms\5c4a309b4332cd346aba353e75b9f808\transformed\lifecycle-service-2.8.7\res
+com.example.nearnote.app-lifecycle-livedata-core-2.8.7-17 C:\Users\thana\.gradle\caches\9.0.0\transforms\68f4fb13518efabbf5ea7da3d21d115b\transformed\lifecycle-livedata-core-2.8.7\res
+com.example.nearnote.app-navigation-runtime-2.8.4-18 C:\Users\thana\.gradle\caches\9.0.0\transforms\698224e12573afe920daa045bc51ec6f\transformed\navigation-runtime-2.8.4\res
+com.example.nearnote.app-ui-release-19 C:\Users\thana\.gradle\caches\9.0.0\transforms\6cc00968fe9031d51378dd8f52fb35e3\transformed\ui-release\res
+com.example.nearnote.app-activity-compose-1.9.3-20 C:\Users\thana\.gradle\caches\9.0.0\transforms\6d5008aea052aa6ab3dafb389543d602\transformed\activity-compose-1.9.3\res
+com.example.nearnote.app-core-runtime-2.2.0-21 C:\Users\thana\.gradle\caches\9.0.0\transforms\6f94298e24706ac733539c778f89ce4f\transformed\core-runtime-2.2.0\res
+com.example.nearnote.app-ui-tooling-data-release-22 C:\Users\thana\.gradle\caches\9.0.0\transforms\7050b4e6b5d3de598092befb3505a134\transformed\ui-tooling-data-release\res
+com.example.nearnote.app-animation-core-release-23 C:\Users\thana\.gradle\caches\9.0.0\transforms\790c001dfd899cd6e93f8bfdce85891b\transformed\animation-core-release\res
+com.example.nearnote.app-material3-release-24 C:\Users\thana\.gradle\caches\9.0.0\transforms\7a030b27bb5c4efe45c6fd97fc9a019e\transformed\material3-release\res
+com.example.nearnote.app-ui-unit-release-25 C:\Users\thana\.gradle\caches\9.0.0\transforms\7bad4daa5517d4f8adbaa48b3a06509e\transformed\ui-unit-release\res
+com.example.nearnote.app-navigation-common-ktx-2.8.4-26 C:\Users\thana\.gradle\caches\9.0.0\transforms\7e5928357086db6881e9535ec0bf0f9c\transformed\navigation-common-ktx-2.8.4\res
+com.example.nearnote.app-emoji2-1.3.0-27 C:\Users\thana\.gradle\caches\9.0.0\transforms\8478eefe6895d95612ab9638a0afad6c\transformed\emoji2-1.3.0\res
+com.example.nearnote.app-profileinstaller-1.3.1-28 C:\Users\thana\.gradle\caches\9.0.0\transforms\85233be038e856dad74770debcc3a485\transformed\profileinstaller-1.3.1\res
+com.example.nearnote.app-room-runtime-2.6.1-29 C:\Users\thana\.gradle\caches\9.0.0\transforms\8810fe526acb80a02bdb99c299c4f2cc\transformed\room-runtime-2.6.1\res
+com.example.nearnote.app-play-services-base-18.5.0-30 C:\Users\thana\.gradle\caches\9.0.0\transforms\88344469396a51705f44f0fe320e4d58\transformed\play-services-base-18.5.0\res
+com.example.nearnote.app-navigation-common-2.8.4-31 C:\Users\thana\.gradle\caches\9.0.0\transforms\88c3ffd00b8eb0af3e50bee8fe9ce2e5\transformed\navigation-common-2.8.4\res
+com.example.nearnote.app-recyclerview-1.3.2-32 C:\Users\thana\.gradle\caches\9.0.0\transforms\89bb1cb6a1a669bcce9977155dadb00b\transformed\recyclerview-1.3.2\res
+com.example.nearnote.app-ui-text-google-fonts-1.7.5-33 C:\Users\thana\.gradle\caches\9.0.0\transforms\90de4299ff01e06dfd4a41a429f4e693\transformed\ui-text-google-fonts-1.7.5\res
+com.example.nearnote.app-ui-tooling-preview-release-34 C:\Users\thana\.gradle\caches\9.0.0\transforms\9a98ed607400cf798dd4ba5f03e2f9c8\transformed\ui-tooling-preview-release\res
+com.example.nearnote.app-navigation-runtime-ktx-2.8.4-35 C:\Users\thana\.gradle\caches\9.0.0\transforms\9c08b01d82ca662c97f2457b0eff8e06\transformed\navigation-runtime-ktx-2.8.4\res
+com.example.nearnote.app-foundation-layout-release-36 C:\Users\thana\.gradle\caches\9.0.0\transforms\9ca8e83a73d45e7af6c172f491345fbe\transformed\foundation-layout-release\res
+com.example.nearnote.app-lifecycle-runtime-ktx-release-37 C:\Users\thana\.gradle\caches\9.0.0\transforms\9cf616cdfb89965de3b879e314ba8c08\transformed\lifecycle-runtime-ktx-release\res
+com.example.nearnote.app-coordinatorlayout-1.0.0-38 C:\Users\thana\.gradle\caches\9.0.0\transforms\a53302e5f4c3c6ed34941168d3955973\transformed\coordinatorlayout-1.0.0\res
+com.example.nearnote.app-lifecycle-viewmodel-ktx-2.8.7-39 C:\Users\thana\.gradle\caches\9.0.0\transforms\a54e3a42bf91c4d2712fda6c321ab2fc\transformed\lifecycle-viewmodel-ktx-2.8.7\res
+com.example.nearnote.app-sqlite-2.4.0-40 C:\Users\thana\.gradle\caches\9.0.0\transforms\a65ed6f4bfd148759f0cd64f0235aef8\transformed\sqlite-2.4.0\res
+com.example.nearnote.app-animation-release-41 C:\Users\thana\.gradle\caches\9.0.0\transforms\a6a40b3b7fc208bf97dfd7ebbb6f1323\transformed\animation-release\res
+com.example.nearnote.app-material-icons-core-release-42 C:\Users\thana\.gradle\caches\9.0.0\transforms\a6d26ed4638ed143c4673fe82d2f04bb\transformed\material-icons-core-release\res
+com.example.nearnote.app-core-ktx-1.15.0-43 C:\Users\thana\.gradle\caches\9.0.0\transforms\ab3e3efecf6cec5ff44341369c56839b\transformed\core-ktx-1.15.0\res
+com.example.nearnote.app-savedstate-ktx-1.2.1-44 C:\Users\thana\.gradle\caches\9.0.0\transforms\b0111f8a4d2be9b8adf1ee0afc42d5e0\transformed\savedstate-ktx-1.2.1\res
+com.example.nearnote.app-runtime-release-45 C:\Users\thana\.gradle\caches\9.0.0\transforms\b640d432c2247443d0050d08e4b405b4\transformed\runtime-release\res
+com.example.nearnote.app-appcompat-1.0.0-46 C:\Users\thana\.gradle\caches\9.0.0\transforms\b74c3e64f92601a528775fdd94cf6452\transformed\appcompat-1.0.0\res
+com.example.nearnote.app-play-services-basement-18.4.0-47 C:\Users\thana\.gradle\caches\9.0.0\transforms\ba7005eb66eb63b54c99257e5e9e3435\transformed\play-services-basement-18.4.0\res
+com.example.nearnote.app-ui-geometry-release-48 C:\Users\thana\.gradle\caches\9.0.0\transforms\bac5275f643f32540635e6e47a87eee7\transformed\ui-geometry-release\res
+com.example.nearnote.app-lifecycle-viewmodel-release-49 C:\Users\thana\.gradle\caches\9.0.0\transforms\bb7d1dbcdb2c804edf9612d7bf41c8cb\transformed\lifecycle-viewmodel-release\res
+com.example.nearnote.app-customview-poolingcontainer-1.0.0-50 C:\Users\thana\.gradle\caches\9.0.0\transforms\bccdb33a23c1a067f9c048935bad9897\transformed\customview-poolingcontainer-1.0.0\res
+com.example.nearnote.app-ui-tooling-release-51 C:\Users\thana\.gradle\caches\9.0.0\transforms\bff9d8a4086390f1fe8bfb3caaaabdbb\transformed\ui-tooling-release\res
+com.example.nearnote.app-maps-compose-6.1.0-52 C:\Users\thana\.gradle\caches\9.0.0\transforms\c75ef8ec2993b1ce0052c77d89e0fd71\transformed\maps-compose-6.1.0\res
+com.example.nearnote.app-lifecycle-runtime-release-53 C:\Users\thana\.gradle\caches\9.0.0\transforms\ca8a27dca76c8f5dbe1f173936495125\transformed\lifecycle-runtime-release\res
+com.example.nearnote.app-material-release-54 C:\Users\thana\.gradle\caches\9.0.0\transforms\ca9376a2000089e3ff0422059d200c2b\transformed\material-release\res
+com.example.nearnote.app-sqlite-framework-2.4.0-55 C:\Users\thana\.gradle\caches\9.0.0\transforms\cd40143cf4616113eca4ddde5a8c468f\transformed\sqlite-framework-2.4.0\res
+com.example.nearnote.app-navigation-compose-2.8.4-56 C:\Users\thana\.gradle\caches\9.0.0\transforms\ced2880176deaf4212afd8f251c6d73a\transformed\navigation-compose-2.8.4\res
+com.example.nearnote.app-runtime-saveable-release-57 C:\Users\thana\.gradle\caches\9.0.0\transforms\cf677ad1007ca8faf96e7a51b5963350\transformed\runtime-saveable-release\res
+com.example.nearnote.app-tracing-1.2.0-58 C:\Users\thana\.gradle\caches\9.0.0\transforms\d17ee5fab458bd005ebfa4bc3efc9323\transformed\tracing-1.2.0\res
+com.example.nearnote.app-annotation-experimental-1.4.1-59 C:\Users\thana\.gradle\caches\9.0.0\transforms\d1940630da277ab5dd06ce7b58021b5f\transformed\annotation-experimental-1.4.1\res
+com.example.nearnote.app-lifecycle-viewmodel-compose-release-60 C:\Users\thana\.gradle\caches\9.0.0\transforms\dbc444337e55a436a4a8ec2523812e25\transformed\lifecycle-viewmodel-compose-release\res
+com.example.nearnote.app-places-4.1.0-61 C:\Users\thana\.gradle\caches\9.0.0\transforms\ddcec1965bb0de493b74554ba6a95d7c\transformed\places-4.1.0\res
+com.example.nearnote.app-play-services-maps-19.0.0-62 C:\Users\thana\.gradle\caches\9.0.0\transforms\e1d162918205391d95697b69270eb4d2\transformed\play-services-maps-19.0.0\res
+com.example.nearnote.app-lifecycle-process-2.8.7-63 C:\Users\thana\.gradle\caches\9.0.0\transforms\e280c6c5959bee6e94fcf94418c2e504\transformed\lifecycle-process-2.8.7\res
+com.example.nearnote.app-ui-graphics-release-64 C:\Users\thana\.gradle\caches\9.0.0\transforms\e8fc7c13776e4d90be02efa2efcd61d5\transformed\ui-graphics-release\res
+com.example.nearnote.app-material-ripple-release-65 C:\Users\thana\.gradle\caches\9.0.0\transforms\ed5454a1a47c18030773febb9cc52cd8\transformed\material-ripple-release\res
+com.example.nearnote.app-startup-runtime-1.1.1-66 C:\Users\thana\.gradle\caches\9.0.0\transforms\f11e3a4c166784f2969398cf50a1226a\transformed\startup-runtime-1.1.1\res
+com.example.nearnote.app-foundation-release-67 C:\Users\thana\.gradle\caches\9.0.0\transforms\fd05e19bae1f3a71b6aed140d5a62a03\transformed\foundation-release\res
+com.example.nearnote.app-pngs-68 D:\Repo Github\Projects\app\build\generated\res\pngs\debug
+com.example.nearnote.app-resValues-69 D:\Repo Github\Projects\app\build\generated\res\resValues\debug
+com.example.nearnote.app-packageDebugResources-70 D:\Repo Github\Projects\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.nearnote.app-packageDebugResources-71 D:\Repo Github\Projects\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.nearnote.app-debug-72 D:\Repo Github\Projects\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.example.nearnote.app-debug-73 D:\Repo Github\Projects\app\src\debug\res
+com.example.nearnote.app-main-74 D:\Repo Github\Projects\app\src\main\res
